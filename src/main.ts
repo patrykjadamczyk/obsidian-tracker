@@ -723,7 +723,7 @@ export default class Tracker extends Plugin {
                                 if (value === null) {
                                     value = collected;
                                 } else {
-                                    value += collected;
+                                    value = collected;
                                 }
                             }
                         }
